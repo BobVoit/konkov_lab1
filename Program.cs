@@ -81,6 +81,12 @@ namespace MyApp // Note: actual namespace depends on the project name.
                         catch (SqlException ex)
                         {
                             Console.WriteLine(ex.Message);
+                            continue;
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine(ex.Message);
+                            continue;
                         }
                     }
                  
