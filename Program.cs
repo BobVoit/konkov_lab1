@@ -22,7 +22,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 var sheets = package.Workbook.Worksheets;
 
                 OleDbConnectionStringBuilder bldr = new OleDbConnectionStringBuilder();
-                bldr.DataSource = "Database.accdb";
+                bldr.DataSource = "../../../Database.accdb";
                 bldr.PersistSecurityInfo = true;
                 bldr.Provider = "Microsoft.ACE.OLEDB.12.0";
                 // string connectString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Database.mdb;";
