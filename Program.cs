@@ -17,7 +17,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 
 
-            using (var package = new ExcelPackage(@"D:\busines\konkov_lab1\excel_data.xlsx"))
+            using (var package = new ExcelPackage(@"D:\busines\konkov_lab1\konkov_lab1\excel_data.xlsx"))
             {
                 var sheets = package.Workbook.Worksheets;
 
